@@ -1,0 +1,29 @@
+:root {
+	--main-text-color: #000;
+}
+
+body {
+	font-family: Helvetica, sans-serif;
+	/* font-family: 'Courier New', Courier, monospace; */
+	font-size: clamp(1rem, 3vw, 6rem); 
+	letter-spacing: 0.03em;
+	line-height: 1.3em;
+	/* background-size: contain; */
+	background-position: center;
+	color: var(--main-text-color);
+}
+
+a {
+	color: var(--main-text-color);
+}
+
+h1 {
+	font-size: 1em;
+	font-weight: normal;
+	margin: 0;
+}
+
+li img {
+	max-width: 1em;
+	max-height: 1em;
+}
