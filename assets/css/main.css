@@ -1,12 +1,12 @@
 :root {
-	--main-text-color: #000;
+	--main-text-color: #FFF;
 }
 
 body {
 	font-family: Helvetica, sans-serif;
 	/* font-size: clamp(1rem, 3vw, 6rem);  */
-	font-size: clamp(1rem, 2vw, 4rem); 
-	letter-spacing: 0.03em;
+	font-size: clamp(1rem, 1.5vw, 3rem); 
+	letter-spacing: 0.02em;
 	line-height: 1.3em;
 	color: var(--main-text-color);
 }
@@ -19,4 +19,17 @@ h1 {
 	font-size: 1em;
 	font-weight: normal;
 	margin: 0;
+}
+
+#gallery {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+#gallery img {
+	object-fit: cover;
+	width: 100vw;
+	height: 100vh;
 }
