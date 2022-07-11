@@ -1,5 +1,2 @@
 # personal site
-- description
-- teaching
-- writing
-- projects
+[https://www.alejandroba.com](https://www.alejandroba.com)
