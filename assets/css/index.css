@@ -1,0 +1,21 @@
+html {
+	text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+	margin: 1rem;
+}
+
+h1 {
+	display: inline;
+	font-size: 1rem;
+	font-weight: normal;
+	margin: 0;
+}
+
+a {
+	color: olivedrab;
+}
