@@ -3,6 +3,10 @@ html {
     -moz-osx-font-smoothing: grayscale;
     font-smoothing: antialiased;
     -webkit-font-smoothing: antialiased;
+	font-family: Helvetica, sans-serif;
+	font-size: 18px;
+	letter-spacing: 0.02rem;
+	font-weight: 600;
 }
 
 body {
@@ -12,10 +16,14 @@ body {
 h1 {
 	display: inline;
 	font-size: 1rem;
-	font-weight: normal;
+	font-weight: inherit;
 	margin: 0;
 }
 
-a {
-	color: olivedrab;
+a:visited {
+	color: blue;
+}
+
+.bio {
+	display: none;
 }
