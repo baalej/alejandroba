@@ -20,10 +20,32 @@ h1 {
 	margin: 0;
 }
 
-a:visited {
-	color: blue;
+a {
+	color: inherit;
 }
 
-.bio {
-	display: none;
+a:visited {
+	color: inherit;
+}
+
+article {
+	margin: 1rem 0;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.code {
+	color: seagreen;
+}
+
+.design {
+	color: slateblue;
+}
+
+.both {
+	color: tomato;
 }
