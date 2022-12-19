@@ -1,7 +1,7 @@
 html {
 	text-rendering: optimizeLegibility;
     -moz-osx-font-smoothing: grayscale;
-    font-smoothing: antialiased;
+    font-smooth: antialiased;
     -webkit-font-smoothing: antialiased;
 	font-family: Helvetica, sans-serif;
 	font-size: 18px;
@@ -40,14 +40,44 @@ ul {
 	margin: 0;
 }
 
+.legend {
+	margin: 1rem 0;
+	display: flex;
+}
+
+.block {
+	width: 64px;
+	height: 9px;
+}
+
+.code-bg {
+	background-color: seagreen;
+}
+
 .code {
 	color: seagreen;
+}
+
+.design-bg {
+	background-color: slateblue;
 }
 
 .design {
 	color: slateblue;
 }
 
+.both-bg {
+	background-color: tomato;
+}
+
 .both {
 	color: tomato;
+}
+
+.typeface-bg {
+	background-color: lightslategray;
+}
+
+.typeface {
+	color: lightslategray;
 }
