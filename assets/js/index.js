@@ -1,23 +1,33 @@
-// let sectionBio, sectionWork, buttonBio, buttonWork
+const faviconImages = [
+    './assets/img/favicon/A.png',
+    './assets/img/favicon/L.png',
+    './assets/img/favicon/E.png',
+    './assets/img/favicon/J.png',
+    './assets/img/favicon/A.png',
+    './assets/img/favicon/N.png',
+    './assets/img/favicon/D.png',
+    './assets/img/favicon/R.png',
+    './assets/img/favicon/O.png'
+]
 
-// function handleClick(event) {
-//     event.preventDefault()
+function favicon(images) {
+    let count = 0
+    const link = document.createElement('link')
+    link.setAttribute('rel', 'icon')
+    link.setAttribute('type', 'image/png')
+    link.setAttribute('href', images[0])
+    document.querySelector('head').appendChild(link)
+    const interval = setInterval(() => {
+        if (count < images.length) {
+            link.setAttribute('href', images[count])
+        } else {
+            count = 0
+            link.setAttribute('href', images[count])
+        }
+        count++
+    }, 1000)
+}
 
-//     if (event.target.id === 'work') {
-//         sectionWork.style.display = 'block'
-//         sectionBio.style.display = 'none'
-//     } else {
-//         sectionBio.style.display = 'block'
-//         sectionWork.style.display = 'none'
-//     }
-// }
-
-// document.addEventListener('DOMContentLoaded', () => {
-//     sectionBio = document.querySelector('.bio')
-//     sectionWork = document.querySelector('.work')
-//     buttonBio = document.querySelector('#bio')
-//     buttonWork = document.querySelector('#work')
-
-//     buttonBio.addEventListener('click', handleClick, false)
-//     buttonWork.addEventListener('click', handleClick, false)
-// })
+document.addEventListener('DOMContentLoaded', () => {
+    favicon(faviconImages)
+})
