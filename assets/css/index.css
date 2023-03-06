@@ -1,8 +1,8 @@
 html {
 	text-rendering: optimizeLegibility;
-    -moz-osx-font-smoothing: grayscale;
-    font-smooth: antialiased;
-    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smooth: antialiased;
+	-webkit-font-smoothing: antialiased;
 	font-family: Helvetica, sans-serif;
 	font-size: 18px;
 	letter-spacing: 0.1px;
